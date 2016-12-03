@@ -10,14 +10,17 @@ from app.models import Users
 def index():
     return render_template("index.html")
 
+
+# Sign Up Route
+# Use case: Page where users can sign up for the application
 @app.route("/sign-up",methods=["GET","POST"])
 def sign_up():
     """
-    sentence explaining what this method does
-    inputs:
-    @param x - explanation of param x
-    outputs:
-    @param y - explanation of param y
+    # Inputs: 
+    #     - @param username: string field
+    #     - @param password: string field, currently no validations (12.3.2016)
+    # Outputs:
+    #     - None
     """
     if request.method=="POST":
         print(type(request.form))
@@ -33,3 +36,4 @@ def sign_up():
 def signin():
     return render_template("sign_in.html")
 
+# Postgres documentation for Python: https://github.com/EricSchles/postgres_flask_macosx
