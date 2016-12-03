@@ -12,10 +12,11 @@ def index():
 
 
 # Sign Up Route
-# Use case: Page where users can sign up for the application
 @app.route("/sign-up",methods=["GET","POST"])
 def sign_up():
     """
+    Takes in username and password and creates new user in the database
+
     # Inputs: 
     #     - @param username: string field
     #     - @param password: string field, currently no validations (12.3.2016)
