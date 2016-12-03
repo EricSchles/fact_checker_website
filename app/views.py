@@ -2,6 +2,7 @@ from app import app, db
 from flask import request, render_template
 from flask_cors import cross_origin
 import json
+from app.models import Users
 
 #This is going to be the splash page
 @app.route("/",methods=["GET","POST"])
@@ -20,9 +21,11 @@ def sign_up():
     """
     if request.method=="POST":
         print(type(request.form))
-        
         username = request.form.get("username")
         password = request.form.get("password_field")
+        user = Users(username=username,password=password)
+        db.session.add(user)
+        db.session.commit()
         print(username,password)
     return render_template("sign_up.html")
 
