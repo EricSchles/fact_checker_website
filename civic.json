@@ -1,0 +1,17 @@
+{
+        "status": "Alpha",
+        "thumbnailUrl": "",
+        "bornAt": "BetaNYC Hacknights",
+        "geography": "NYC",
+        "politicalEntity":"",
+        "type":"Web App",
+        "needs": [
+                {"need": "Web Designer"},
+                {"need": "Python Dev"},
+                {"need": "Flask Dev"}
+        ],
+        "categories": [
+                {"category": "Community"},
+                {"category": "News"}
+        ]
+}
