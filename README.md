@@ -71,5 +71,6 @@ Try:
 ## Unable to install pyscopg2 
 
 Try installing xcode-setup and re-run the Installation
+
 Please see here: https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/
 
