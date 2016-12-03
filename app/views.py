@@ -16,12 +16,14 @@ def index():
 def sign_up():
     """
     # Inputs: 
-    #     - username: string field
-    #     - password: string field, currently no validations (12.3.2016)
+    #     - @param username: string field
+    #     - @param password: string field, currently no validations (12.3.2016)
     # Outputs:
     #     - None
     """
     if request.method=="POST":
+        print(type(request.form))
+        
         username = request.form.get("username")
         password = request.form.get("password_field")
         print(username,password)
