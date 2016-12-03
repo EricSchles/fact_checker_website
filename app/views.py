@@ -11,7 +11,16 @@ def index():
 
 @app.route("/sign-up",methods=["GET","POST"])
 def sign_up():
+    """
+    sentence explaining what this method does
+    inputs:
+    @param x - explanation of param x
+    outputs:
+    @param y - explanation of param y
+    """
     if request.method=="POST":
+        print(type(request.form))
+        
         username = request.form.get("username")
         password = request.form.get("password_field")
         print(username,password)
