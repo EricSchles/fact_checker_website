@@ -14,8 +14,7 @@ They read the url providing notes and feedback as to whether the article is fact
 
 The first thing you'll need to do is clone this repo, it's preferred that you fork it and then submit pull requests from your fork.  This way we have clear providence of who did what, but also, it will be easier to roll back changes, should something be wrong, before committing to the canonical master repository.
 
-You'll need [Python 3](https://www.python.org/downloads/) (Python 3.5 is preferred), [pip3](https://pip.pypa.io/en/stable/
-installing/) (1.8.2 is preferred), and the heroku toolbelt and a heroku account to deploy this repository.
+You'll need [Python 3](https://www.python.org/downloads/) (Python 3.5 is preferred), [pip3](https://pip.pypa.io/en/stable/) (1.8.2 is preferred), and the heroku toolbelt and a heroku account to deploy this repository.
 
 After you install Python simply run:
 
