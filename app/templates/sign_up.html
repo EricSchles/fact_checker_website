@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form action="{{ url_for('sign_up') }}" method="POST">
+	<label for="username" >Username: </label>
+		<input type="text" name="username" id="username">
+	<label for="password_field">password: </label>
+		<input type="password" name="password_field" id="password_field">
+	<input type="submit">
+</form>
+
+</body>
+</html>
