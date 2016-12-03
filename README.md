@@ -72,5 +72,5 @@ Try:
 
 Try installing xcode-setup and re-run the Installation
 
-Please see here: https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/
+Please see here: http://stackoverflow.com/questions/33866695/install-psycopg2-on-mac-osx-10-9-5-pg-config-pip
 
