@@ -10,6 +10,15 @@ from app.models import Users
 def index():
     return render_template("index.html")
 
+#This is going to be the reporting fake-news instructions page
+@app.route("/instructions",methods=["GET"])
+def instructions():
+    return render_template("instructions.html")
+
+# About Route
+@app.route("/about",methods=["GET"])
+def about():
+    return render_template("about.html")
 
 # Sign Up Route
 @app.route("/sign-up",methods=["GET","POST"])
@@ -17,7 +26,7 @@ def sign_up():
     """
     Takes in username and password and creates new user in the database
 
-    # Inputs: 
+    # Inputs:
     #     - @param username: string field
     #     - @param password: string field, currently no validations (12.3.2016)
     # Outputs:
@@ -36,5 +45,21 @@ def sign_up():
 @app.route("/sign-in",methods=["GET","POST"])
 def signin():
     return render_template("sign_in.html")
+
+
+@app.route("/report",methods=["GET", "POST", "PUT"])
+def report():
+    return 'This is the report fake news page!'
+
+#    Takes in comment and source url as inputs and creates new (or updates an existing) fake-news report in the database
+
+    # Inputs:
+    #     - @param comment: text/string field
+    #     - @param sourceurl: string field, currently no validations (12.3.2016)
+    # Outputs:
+    #     - None Currently
+    #     (should generate new report on the DOM)
+
+
 
 # Postgres documentation for Python: https://github.com/EricSchles/postgres_flask_macosx
