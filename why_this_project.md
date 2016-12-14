@@ -24,11 +24,11 @@ The press - the press gave him a lot of free coverage - this is primarily due to
 
 The parties - political parties are weak and partisanship is strong - if parties don't back their candidates they risk losing re-election and thus losing their own jobs.  So despite the strong misgivings many major republicans stated regarding trump, they endorsed him.  Because they had or would likely lose their jobs.
 
-references: 
+references for this section: 
 	* [trump's success](https://youtu.be/RLCUphApmr8?list=PLJ8cMiYb3G5fSvLETeRMhU_CG8i76euCd)
 
 
-<p style="font-size:large">So given that these institutions all failed us?  Where do we go from here?</p>
+**So given that these institutions all failed us?  Where do we go from here?**
 
 ## The start of a solution
 
