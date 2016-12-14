@@ -12,7 +12,8 @@ There were three fundamental failures during the election of 2016 which are moti
 Historically there have been 3 areas that stopped demogaugs from getting power:
 	
 	1. Money - large donors would signal which candidates to back by the size of their donations.
-	2. The press - the press would signal which candidates to pay attention to and take seriously, by giving coverage to candidates that matter.
+	2. The press - the press would signal which candidates to pay attention to and take seriously, 
+	by giving coverage to candidates that matter.
 	3. The parties - the parties would signal which candidates to take seriously with their endorsements.
 
 Trump managed to circumvent all three of these safeguards:
