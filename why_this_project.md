@@ -28,7 +28,7 @@ references:
 	* [trump's success](https://youtu.be/RLCUphApmr8?list=PLJ8cMiYb3G5fSvLETeRMhU_CG8i76euCd)
 
 
-*So given that these institutions all failed us?  Where do we go from here?*
+**So given that these institutions all failed us?  Where do we go from here?**
 
 ## The start of a solution
 
