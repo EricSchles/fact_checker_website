@@ -43,7 +43,7 @@ def sign_up():
     return render_template("sign_up.html")
 
 @app.route("/sign-in",methods=["GET","POST"])
-def signin():
+def sign_in():
     return render_template("sign_in.html")
 
 

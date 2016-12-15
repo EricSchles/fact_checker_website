@@ -9,7 +9,7 @@
     <meta name="description" content="Information form">
     <meta name="author" content="email@website.com"> <!-- email goes here! -->
 
-    <title>Investigator</title>
+    <title>CriticalThink</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
@@ -69,14 +69,15 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="{{ url_for('sign_in') }}">Sign In</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#analysis">Analysis</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About Us</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -90,7 +91,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <!--<h1 style="color:#093145;" class="brand-heading">Critical-Think</h1>-->
+                        <!--
+						The old branding - if we decide to change the image to something more colorful, it can replace this and we can possibly bring back the big text
+                        <h1 style="color:#093145;" class="brand-heading">Critical-Think</h1>-->
                         <p style="padding-top: 325px;" class="intro-text">Critical-Think is a tool to think critically</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
