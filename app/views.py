@@ -8,7 +8,7 @@ from app.models import Users
 @app.route("/",methods=["GET","POST"])
 @app.route("/index",methods=["GET","POST"])
 def index():
-    return render_template("index.html")
+    return render_template("index2.html")
 
 #This is going to be the reporting fake-news instructions page
 @app.route("/instructions",methods=["GET"])
