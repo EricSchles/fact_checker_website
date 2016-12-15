@@ -1,25 +1,54 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-<!-- Flask Form 
+    <title>SignUp</title>
+    <!-- failes from here -->
+    <!-- jQuery -->
+    <script src="{{url_for('static',filename='js/jquery.js') }}"></script>
 
-To read more about Flask Form, click here: http://flask.pocoo.org/docs/0.11/patterns/wtforms/#the-forms
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{url_for('static', filename='js/bootstrap.min.js') }}"></script>
 
-Some key configurations:
-	url_for(routename) ==> Directly translates to the function defined with same name on ./views.py
-	parameters from name="name" 
--->
-<form action="{{ url_for('sign_up') }}" method="POST">
-	<label for="username" >Username: </label>
-		<input type="text" name="username" id="username">
-	<label for="password_field">password: </label>
-		<input type="password" name="password_field" id="password_field">
-	<input type="submit">
-</form>
 
-</body>
+    <!-- Bootstrap core CSS -->
+    <script src="{{url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
+    <!-- Fails to here -->
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/signin.css' ) }}" rel="stylesheet">
+
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form action="{{ url_for('sign_up') }}" class="form-signin" method=post>
+        <h2 class="form-signin-heading">Sign up!</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="username" name="username" class="form-control" placeholder="Email address" required autofocus>
+        <label for="password_field" class="sr-only">Password</label>
+        <input type="password" id="password_field" name="password_field" class="form-control" placeholder="Password" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+      </form>
+
+    </div> <!-- /container -->
+
+  </body>
 </html>

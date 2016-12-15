@@ -33,6 +33,7 @@ def sign_up():
     #     - None
     """
     if request.method=="POST":
+        
         print(type(request.form))
         username = request.form.get("username")
         password = request.form.get("password_field")
@@ -40,6 +41,7 @@ def sign_up():
         db.session.add(user)
         db.session.commit()
         print(username,password)
+
     return render_template("sign_up.html")
 
 @app.route("/sign-in",methods=["GET","POST"])

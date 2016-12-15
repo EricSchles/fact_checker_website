@@ -57,3 +57,4 @@ references:
 	* [trump's success](https://youtu.be/RLCUphApmr8?list=PLJ8cMiYb3G5fSvLETeRMhU_CG8i76euCd)
 	* [other fact checking tools](http://www.slate.com/articles/technology/technology/2016/12/introducing_this_is_fake_slate_s_tool_for_stopping_fake_news_on_facebook.html)
 	* [relevant discussion](http://www.onbeing.org/program/jimmy-wales-the-sum-of-all-human-knowledge/8916)
+	* [the importance of education](http://www.wnyc.org/story/fake-news-expert-on-how-false-stories-spread-and-why-people-believe-them/)
