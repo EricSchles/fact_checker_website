@@ -55,6 +55,13 @@ Analysis of fake, partisan news -
 
 references: 
 	* [trump's success](https://youtu.be/RLCUphApmr8?list=PLJ8cMiYb3G5fSvLETeRMhU_CG8i76euCd)
+
 	* [other fact checking tools](http://www.slate.com/articles/technology/technology/2016/12/introducing_this_is_fake_slate_s_tool_for_stopping_fake_news_on_facebook.html)
+
 	* [relevant discussion](http://www.onbeing.org/program/jimmy-wales-the-sum-of-all-human-knowledge/8916)
+
 	* [the importance of education](http://www.wnyc.org/story/fake-news-expert-on-how-false-stories-spread-and-why-people-believe-them/)
+
+	* [fact-check-trump-tweets](https://www.washingtonpost.com/news/the-fix/wp/2016/12/16/now-you-can-fact-check-trumps-tweets-in-the-tweets-themselves/?tid=sm_fb&utm_term=.b37b7621caef)
+
+	* [facebook partnership details](http://www.nytimes.com/2016/12/15/technology/facebook-fact-checking-fake-news.html?_r=0)
