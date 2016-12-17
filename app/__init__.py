@@ -11,7 +11,7 @@ username="news_admin"
 password="1234"
 app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")
 app.config["SECRET_KEY"] = "testing"
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgres://"+username+":"+password+"@localhost/fact_checker_db"
+#app.config["SQLALCHEMY_DATABASE_URI"] = "postgres://"+username+":"+password+"@localhost/fact_checker_db"
 db = SQLAlchemy(app)
 migrate = Migrate(app,db)
 cors = CORS(app, resources={"/send_data":{"origins":"serene-reef-39081.herokuapp.com"}})
