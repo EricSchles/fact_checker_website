@@ -1,5 +1,5 @@
 from app import app, db
-from flask import request, render_template
+from flask import request, render_template,redirect, url_for
 from flask_cors import cross_origin
 import json
 from app.models import Users
@@ -42,7 +42,7 @@ def sign_up():
             db.session.add(user)
             db.session.commit()
             print(username,password)
-            return render_template("sign_in.html")
+            return redirect(url_for("sign_in"))
         else:
             return render_template("sign_up.html",error="username already exists, please choose another")
     return render_template("sign_up.html")
@@ -69,7 +69,7 @@ def sign_in():
         elif result[0].password != password:
             return render_template("sign_in.html",error="wrong password")
         else:
-            return render_template("review_an_article.html")
+            return redirect(url_for("review_an_article"))
     return render_template("sign_in.html")
 
 @app.route("/review_an_article",methods=["GET","POST"])
@@ -78,7 +78,7 @@ def review_an_article():
     if request.method == "POST":
         #put stuff here to save to DB
         #should be in status ready for review after submitted
-        return render_template("thanks.html")
+        return redirect(url_for("thanks"))
     return render_template("review_an_article.html")
 
 @app.route("/thanks",methods=["GET","POST"])
