@@ -78,8 +78,12 @@ def review_an_article():
     if request.method == "POST":
         #put stuff here to save to DB
         #should be in status ready for review after submitted
-        return render_template("review_an_article.html")
+        return render_template("thanks.html")
     return render_template("review_an_article.html")
+
+@app.route("/thanks",methods=["GET","POST"])
+def thanks():
+    return render_template("thanks.html")
 
 #dashboard showing all the articles you've reviewed goes here
 
