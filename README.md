@@ -37,16 +37,19 @@ To migrate the database, please see:
 To contribute to this application, please fork from the canonical master and create pull requests.
 
 To configure a remote for a fork:
+
     * `git remote add upstream https://github.com/EricSchles/fact_checker_website.git`
     * For more: https://help.github.com/articles/configuring-a-remote-for-a-fork/
 
 To sync a fork
+
     * `git fetch upstream`
     * `git pull`
     * `git checkout master` (or whatever branch)
     * For more: https://help.github.com/articles/syncing-a-fork/
 
 To make a pull request
+
     * `git pull origin master`
     * Go to main repository and create a pull request
 
