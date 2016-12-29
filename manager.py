@@ -17,7 +17,6 @@
     # If fails, try running the local commands found at setup.md
 # python3 manager.py db upgrade
 
-
 from app import manager
 
 manager.run()
